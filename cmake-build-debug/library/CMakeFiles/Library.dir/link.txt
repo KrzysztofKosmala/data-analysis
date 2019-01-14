@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libLibrary.a  CMakeFiles/Library.dir/src/Record.cpp.obj CMakeFiles/Library.dir/src/RecordRepo.cpp.obj CMakeFiles/Library.dir/src/Calculations.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libLibrary.a
