@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Library"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library">
+				<Option output="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/include"/>
+					<Add directory="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library/fast">
+				<Option output="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/include"/>
+					<Add directory="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/include/Calculations.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/include/Record.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/include/RecordRepo.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/src/Calculations.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/src/Record.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/src/RecordRepo.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof Kosmala/Desktop/Repozytorium/zadanie1v2/zadanie1/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
